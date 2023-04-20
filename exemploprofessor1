@@ -1,0 +1,12 @@
+package model;
+
+public class Funcionario {
+    private short chapa;
+    private String nome;
+    private float valorHora;
+
+    public Funcionario(short chapa,String nome,float valorHora) {
+        this.chapa = chapa;
+
+    }
+}
